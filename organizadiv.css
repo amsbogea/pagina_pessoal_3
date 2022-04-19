@@ -1,0 +1,25 @@
+
+
+.TOPO{
+
+width:300px;
+height: 300px;
+display: flex;
+
+}
+
+
+
+
+.footer{
+
+
+
+width:1500px;
+height: 180px;
+background:#808080;
+margin-top: 500px;
+display: inline-flex;
+
+}
+
