@@ -2,41 +2,59 @@
 
 .TOPO{
 
-width:300px;
+width:100%;
 height: 300px;
 display: flex;
 
 }
 
+.img-fluid {
+    width: 845px;
+}
 
+p {
+    padding-top: 20px;
+    text-align: justify;
+}
 
+.recuo { 
+    text-indent:2em 
+}
 
 .footer{
 
 
 
-width:1500px;
+width:100%;
 height: 180px;
 background:#808080;
-/*margin-top: 500px;*/
+margin-top: 50px;
+
 display: inline-flex;
-justify-content:space-between;
-align-items: center;
+justify-content:space-around;
 
 }
 
 .footer-ul {
-    padding: 10%;
+    padding-left: 0px;    
+
 }
 
 .footer-ul a{
     text-decoration: none;
     list-style: none;
-    color: aliceblue;
-    text-shadow: #808080;
+    color: white;
+    text-shadow: black;
+    font-weight: 700;
 }
 
 .footer-ul ul{
     list-style: none;
 }
+
+.footer-ul h2{
+    font-size: medium;
+    font-weight: 600;
+}
+
 
